@@ -1,7 +1,11 @@
 package com.recon.flow.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@Req
+@RequestMapping("api/transaction")
 public class TransactionController {
+
+    @PostMapping("/create")
 }
