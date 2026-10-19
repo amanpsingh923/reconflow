@@ -1,4 +1,4 @@
-package main.java.com.recon.flow.service;
+package com.recon.flow.Service;
 
 public class TransactionService {
 }
